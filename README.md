@@ -1,16 +1,71 @@
-# React + Vite
+# 🏫 SchoolFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive school discovery and comparison platform built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+SchoolFinder allows parents to discover schools, filter schools by location and board, view detailed school information, compare schools, and submit admission enquiries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://school-finder-rouge.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 GitHub
 
-## Expanding the ESLint configuration
+https://github.com/Unnati-singh-ai/school-finder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔎 Search schools
+- 📍 Filter schools by city
+- 🎓 Filter schools by board
+- 🏫 School details page
+- ⚖️ Compare up to 3 schools
+- 📝 Admission enquiry form
+- 📱 Fully responsive design
+- 🍔 Responsive mobile navigation
+- 🎨 Modern UI with Tailwind CSS
+- ⚡ Fast React + Vite application
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React
+- JavaScript
+- Git & GitHub
+- Vercel
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Categories.jsx
+│   ├── FeaturedSchools.jsx
+│   ├── SchoolCard.jsx
+│   ├── WhyChooseUs.jsx
+│   ├── HowItWorks.jsx
+│   ├── PopularCities.jsx
+│   ├── Testimonials.jsx
+│   └── Footer.jsx
+│
+├── data/
+│   └── schools.js
+│
+├── pages/
+│   ├── Schools.jsx
+│   ├── SchoolDetails.jsx
+│   └── Compare.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Unnati-singh-ai/school-finder.git
